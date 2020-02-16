@@ -7,6 +7,8 @@ Cluster Id:5ee65450-6e18-46e4-bb6d-535a44ec33c4
 
 git clone https://github.com/mohammedmfawzy/DO288-apps.git
 
+# Set Enviroment Variables
+echo '. /usr/local/etc/ocp4.config' >> ./.bashrc
 
 # Start lab container
 lab container-create start
