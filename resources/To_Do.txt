@@ -3,3 +3,5 @@ To Do:
 1- Read Google white paper
 2- Build bash container manually
 3- Yaml introduction
+4- Tekton: https://github.com/tektoncd/pipeline/blob/master/docs/install.md
+5- Helm
