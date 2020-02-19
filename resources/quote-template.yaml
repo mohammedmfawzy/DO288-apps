@@ -99,7 +99,6 @@ objects:
             value: quotesdb
           - name: DATABASE_USER
             value: quoteapp
-          image: image-registry.openshift-image-registry.svc:5000/maly12-quotes-dev/quotesapi@sha256:7ce80307f9088b3dcdb5fb99d65574c1a580214e98a5135e6e08cbb1e7b900f2
           imagePullPolicy: Always
           name: quotesapi
           ports:
@@ -165,7 +164,6 @@ objects:
             value: ${PASSWORD}
           - name: MYSQL_USER
             value: quoteapp
-          image: image-registry.openshift-image-registry.svc:5000/openshift/mysql@sha256:9a781abe7581cc141e14a7e404ec34125b3e89c008b14f4e7b41e094fd3049fe
           imagePullPolicy: IfNotPresent
           name: quotesdb
           ports:
